@@ -1,5 +1,5 @@
 /* java script for post */
-
+console.log("post loaded");
 const posts = [
     {
         id: 1,
@@ -23,7 +23,6 @@ if (document.getElementById('post-content')) {
 if (!postId) {
         // Hantera fel: Inget ID
         document.getElementById('post-content').innerHTML = '<p>Inget inläggs-ID angivet. Gå tillbaka till <a href="index.html">startsida</a>.</p>';
-        return;  // Avbryt
     }    
 
 if (post) {

@@ -5,7 +5,9 @@
     <title>Campus Blog</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' href='index.css'>
-    <script src='main.js'></script>
+    <script src='index.js' defer></script>
+    <script src='script.js'defer ></script>
+
 </head>
 <body>
     <header class="bg-header text-light">
@@ -21,11 +23,11 @@
         </section>
     </header>
     <main>
-        <section class="featured-post" title="Featured">
+        <section id="featured-post" class="featured-post" title="Featured">
             <p>Space for a featured post</p>
         </section>
         <div class="page-layout">
-            <section class="recent-posts" title="recent-posts">
+            <section id="recent-post-list" class="recent-posts" title="recent-posts">
                 <h2>Recent Posts</h2>
                 <card class="recent-post">
                     <img  class="postimage" src="encrypted-channel.png" alt="Placeholder Postimg">
