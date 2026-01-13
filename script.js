@@ -9,7 +9,7 @@ const posts = [
         author: "Anna Eriksson",
         date: "2026-01-13",
         category: "Frontend",
-        image: "images/placeholder1.jpg"
+        image: "encrypted-channel.png"
     },
     {
     id: 2,
@@ -19,7 +19,7 @@ const posts = [
     author: "Berit Ingalynn",
     date: "2026-01-13",
     category: "Lost and found",
-    image: "Image/placeholder2.jpg",
+    image: "encrypted-channel.png",
     },
      {
         id: 3,
@@ -29,7 +29,7 @@ const posts = [
         author: "Cecilia Undulatodlare",
         date: "2026-01-13",
         category:"Läxhjälp",
-        image:"Image/placeholder3.jpg",
+        image:"encrypted-channel.png",
         },
          {
             id: 4,
@@ -39,7 +39,7 @@ const posts = [
             author: "Delilah Dapinka",
             date:"2026-01-13",
             category: "Umgänge",
-            image:"Image/placeholder4.jpg",
+            image:"encrypted-channel.png",
             },
              {
                 id: 5,
@@ -49,7 +49,7 @@ const posts = [
                 author: "Egon Hållbar",
                 date: "2026-01-13",
                 category: "Personal",
-                image: "Image/placeholder5.jpg",
+                image: "encrypted-channel.png",
                 },
                  {
                     id: 6,
@@ -59,7 +59,7 @@ const posts = [
                     author: "Ford Rulle",
                     date: "2026-01-13",
                     category: "Slack och Canvas",
-                    image: "Image/placeholder6.jpg",
+                    image: "encrypted-channel.png",
                     },
                      {
                         id: 7,
@@ -69,7 +69,7 @@ const posts = [
                         author: "Gail Frisk",
                         date: "2026-01-13",
                         category: "Vett och Etikett",
-                        image:"Image/placeholder7.jpg",
+                        image:"encrypted-channel.png",
                         },
                          {
                             id: 8,
@@ -79,7 +79,7 @@ const posts = [
                             author: "Humphrey Träsktroll",
                             date: "2026-01-13",
                             category: "Vett och Etikett",
-                            image:"Image/placeholder8.jpg",
+                            image:"encrypted-channel.png",
                             },]
 
 

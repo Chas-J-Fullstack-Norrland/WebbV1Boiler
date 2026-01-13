@@ -26,6 +26,7 @@ header{
 }
 
 
+
 .nav{
     display: flex;
 
@@ -61,17 +62,21 @@ header{
 .shortpost{
     max-height: 30%;
     display: flex;
+    border: 1px solid black;
 }
 .shortpost img{
       display: block;
-    max-width:64px;
-    max-height:64px;
+    max-width:128px;
+    max-height:128px;
     width: auto;
     height: auto;
 }
 
 
+
 footer{
+    display:flex;
+    flex-direction: row;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -79,6 +84,7 @@ footer{
 footer a{
     color: white;
 }
+
 
 
 @media (width>768px){
