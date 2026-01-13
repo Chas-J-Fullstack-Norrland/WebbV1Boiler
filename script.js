@@ -16,25 +16,23 @@ const posts = [
 if (document.getElementById('post-content')) {  
     const urlParams = new URLSearchParams(window.location.search);
     const postId = parseInt(urlParams.get('id'));
-    const post = posts.find(p => p.id === postId);
     const contentContainer = document.getElementById('post-content');
 
-
-if (!postId) {
-        // Hantera fel: Inget ID
-        document.getElementById('post-content').innerHTML = '<p>Inget inläggs-ID angivet. Gå tillbaka till <a href="index.html">startsida</a>.</p>';
-        return;  // Avbryt
-    }    
-
-if (post) {
-        contentContainer.innerHTML = `
-            <img src="$$   {post.image}" alt="   $${post.title}">
-            <h1>${post.title}</h1>
-            <p>Av: ${post.author} | ${post.date} | Kategori: ${post.category}</p>
-            <p>${post.content}</p>
-        `;
+   
+    if (!urlParams.get('id') || isNaN(postId)) {
+        contentContainer.innerHTML = '<p>Inget inläggs-ID angivet. Gå tillbaka till <a href="Index.html">startsida</a>.</p>';
     } else {
-        contentContainer.innerHTML = '<p>Inlägget hittades inte. Gå tillbaka till <a href="index.html">startsida</a>.</p>';
-    }    
-
-}   
+        const post = posts.find(p => p.id === postId);
+        
+        if (post) {
+            contentContainer.innerHTML = `
+                <img src="${post.image}" alt="${post.title}">
+                <h1>${post.title}</h1>
+                <p>Av: ${post.author} | ${post.date} | Kategori: ${post.category}</p>
+                <p>${post.content}</p>
+            `;
+        } else {
+            contentContainer.innerHTML = '<p>Inlägget hittades inte. Gå tillbaka till <a href="Index.html">startsida</a>.</p>';
+        }
+    }
+}  
