@@ -4,13 +4,13 @@
     <meta charset='utf-8'>
     <title>Campus Blog</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' href='index.css'>
     <script src='main.js'></script>
 </head>
 <body>
-    <header>
+    <header class="bg-header text-light">
         <div>
-            <h1 class="logo">EventHub</h1>
+            <h1 class="logo">CampusBlog</h1>
         </div>
         <section>
             <nav class="nav">
@@ -21,31 +21,69 @@
         </section>
     </header>
     <main>
-        <section title="Featured">
-            Space for a featured post
+        <section class="featured-post" title="Featured">
+            <p>Space for a featured post</p>
         </section>
-        <div class="two-column-flex">
-            <section title="recent-posts"><p>space for recent post</p></section>
-            <div class="three-column-flex"> 
-                <section title="Subscribe"><p>soobscribe</p></section>
+        <div class="page-layout">
+            <section class="recent-posts" title="recent-posts">
+                <h2>Recent Posts</h2>
+                <card class="recent-post">
+                    <img  class="postimage" src="encrypted-channel.png" alt="Placeholder Postimg">
+                    <article>
+                        <h3>Post Header</h3>
+                        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                    </article>
+                </card>
+                <card class="recent-post">
+                    <img  class="postimage" src="encrypted-channel.png" alt="Placeholder Postimg">
+                    <article>
+                        <h3>Post Header</h3>
+                        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                    </article>
+                </card>
+                <card class="recent-post">
+                    <img  class="postimage" src="encrypted-channel.png" alt="Placeholder Postimg">
+                    <article>
+                        <h3>Post Header</h3>
+                        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                    </article>
+                </card>
+
+            </section>
+            <div class="three-row-flex"> 
+                <section title="Subscribe"><h2>Subscribe</h2></section>
                 <section title="Categories">
+                    <h2>Categories</h2>
                     <ul>
                         <li>cat1</li>
                         <li>cat2</li>
                     </ul>
                 </section>
                 <section title="Popular">
-                    <ul>
-                        <li>post1</li>
-                        <li>post2</li>
-                    </ul>
+                    <h2>Hottest Posts</h2>
+                    <card class="shortpost">
+                        <img  class="postimage" src="encrypted-channel.png" alt="Placeholder Postimg">
+                        <article>
+                            <h4>Title</h4>
+                            <p>Neque porro quisquam est qui dolorem</p>
+                        </article>
+                        
+                    </card>
+                    <card class="shortpost">
+                        <img  class="postimage" src="encrypted-channel.png" alt="Placeholder Postimg">
+                        <article>
+                            <h4>Title</h4>
+                            <p>Neque porro quisquam est qui dolorem</p>
+                        </article>
+                        
+                    </card>
                 </section>
             </section>
         </section>
 
 
     </main>
-    <footer class="text-light">
+    <footer class="bg-footer text-light">
         <div class="footer_container">
             <p>&copy 2024 CampusBlog |</p>
             <a href="">Follow Us on Social Media</a>
