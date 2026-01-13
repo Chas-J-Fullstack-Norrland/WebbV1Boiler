@@ -20,7 +20,7 @@ const posts = [
     date: "2026-01-13"
     category: "Lost and found"
     image: "Image/placeholder2.jpg"
-    }
+    },
      {
         id: 3,
         title: "Studiehjälp"
@@ -30,7 +30,7 @@ const posts = [
         date: "2026-01-13"
         category:"Läxhjälp"
         image:"Image/placeholder3.jpg"
-        }
+        },
          {
             id: 4,
             title: "Afterworktipps"
@@ -40,7 +40,7 @@ const posts = [
             date:"2026-01-13"
             category: "Umgänge"
             image:"Image/placeholder4.jpg"
-            }
+            },
              {
                 id: 5,
                 title: "Vilka hjälper dig med vad?"
@@ -50,7 +50,7 @@ const posts = [
                 date: "2026-01-13"
                 category: "Personal"
                 image: "Image/placeholder5.jpg"
-                }
+                },
                  {
                     id: 6,
                     title: "Kom ihåg att dubbelkolla Slack"
@@ -60,7 +60,7 @@ const posts = [
                     date: "2026-01-13"
                     category: "Slack och Canvas"
                     image: "Image/placeholder6.jpg"
-                    }
+                    },
                      {
                         id: 7,
                         title: "Bra att vara punktligt och följa tider."
@@ -70,7 +70,7 @@ const posts = [
                         date: "2026-01-13"
                         category: "Vett och Etikett"
                         image:"Image/placeholder7.jpg"
-                        }
+                        },
                          {
                             id: 8,
                             title: "Se upp i trafiken"
@@ -80,8 +80,7 @@ const posts = [
                             date: "2026-01-13"
                             category: "Vett och Etikett"
                             image:"Image/placeholder8.jpg"
-                            }
-                             {
+                            },
 
 
 if (document.getElementById('post-content')) {  
